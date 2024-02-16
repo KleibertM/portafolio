@@ -1,0 +1,373 @@
+{
+  "basics": {
+    "name": "Kleibert Medina",
+    "label": "Full Stack Developer con más de 1 años de experiencia.",
+    "image": "",
+    "email": "kleibertmedina@gmail.com",
+    "phone": "51976963819",
+    "url": "https://github.com/KleibertM",
+    "linkdin": "https://www.linkedin.com/in/kleibert-jose-medina-gomez-19a6a412a/",
+    "summary": "+1 año de experiencia como Desarrollador Web. Full Stack Developer con un enfoque creativo y una pasión por la innovación tecnológica. Con una sólida experiencia en el desarrollo de aplicaciones web y móviles, me especializo en tecnologías como NodeJS, React, React Native, MySQL y PostgreSQL..",
+    "location": {
+      "address": "Los Olivos",
+      "postalCode": "15301",
+      "city": "Lima",
+      "countryCode": "PE",
+      "region": "Perú"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "kleibert",
+        "url": "www.linkedin.com/in/kleibert-jose-medina-gomez-19a6a412a"
+      },
+      {
+        "network": "X",
+        "username": "midudev",
+        "url": "https://x.com/midudev"
+      },
+      {
+        "network": "GitHub",
+        "username": "KleibertM",
+        "url": "https://github.com/KleibertM"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Vamos!! ONG",
+      "position": "Full Stack Developer",
+      "url": "https://vamos-app.vercel.app",
+      "startDate": "2024-01-09",
+      "endDate": "2024-02-09",
+      "summary": "Desarrolle interfaces de admiistrador, control de formularios de registros, manejo de estado con Redux, filtrado de datos para renderizar en diferentes areas de la pagina web.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Shaddai (Ecommerce)",
+      "position": "Desarrollador General",
+      "url": "https://shaddai-app-psi.vercel.app/",
+      "startDate": "2016-02-10",
+      "endDate": null,
+      "summary": "Lideró la creacion de la app, encargado del desarrollo del sistema completo, manejo de hooks, redux, base de datos, deploy, y otros servicios",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Hubii",
+      "position": "Senior FrontEnd Developer",
+      "startDate": "2011-03-01",
+      "endDate": "2016-05-01",
+      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "SoyHenry (BootCamp)",
+      "url": "https://www.soyhenry.com",
+      "area": "Full Stack Developer",
+      "studyType": "Bachelor",
+      "startDate": "2023-09-25",
+      "endDate": "2024-02-09",
+      "score": "4.0",
+      "courses": [
+        "React",
+        "JavaScript",
+        "PostgreSQL",
+        "ExpressJS",
+        "Redux"
+      ]
+    },
+    {
+      "institution": "instituto Senati",
+      "url": "https://www.senati.edu.pe/",
+      "area": "Diseño y Desarrollo Web",
+      "studyType": "Bachiller",
+      "startDate": "2023-10-01",
+      "endDate": "2024-02-09",
+      "score": "4.0",
+      "courses": [
+        "PHP",
+        "Xamarin Forms",
+        "JavaScript",
+        "MySQL",
+        "SQL",
+        "Oracle"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Desarrollo Full Stack",
+      "date": "2024-02-09",
+      "issuer": "Henry",
+      "url": "https://d2rf2c6bvm78n9.cloudfront.net/new-cert?id=b67cba97b556c23c7abc01ca38fd375a9beff87c488a8fe23064f5277e4859ca"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ],
+      "image": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
+    },
+    {
+      "name": "CSS",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
+      ],
+      "image": "https://cdn-icons-png.flaticon.com/512/919/919826.png"
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ],
+      "image": "https://static-00.iconduck.com/assets.00/javascript-js-icon-2048x2048-nyxvtvk0.png"
+    },
+    {
+      "name": "Tailwind",
+      "level": "Basico",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ],
+      "image": "https://www.svgrepo.com/show/374118/tailwind.svg"
+    },
+    {
+      "name": "TypeScript",
+      "level": "Basico",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ],
+      "image": "https://cdn-icons-png.flaticon.com/512/919/919832.png"
+    },
+    {
+      "name": "Node",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ],
+      "image": "https://cdn-icons-png.flaticon.com/512/919/919825.png"
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermedio",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ],
+      "image": "https://cdn-icons-png.flaticon.com/512/919/919836.png"
+    },
+    {
+      "name": "Git",
+      "level": "Intermedio",
+      "keywords": [
+        "Control de Versiones ",
+        "Colaboración ",
+        "Código Fuente "
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png"
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermedio",
+      "keywords": [
+        "Control de Versiones ",
+        "Colaboración ",
+        "Código Fuente ",
+        "Git "
+      ],
+      "image": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+    },
+    {
+      "name": "Next.js",
+      "level": "Basico",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ],
+      "image": "https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png"
+    },
+    {
+      "name": "React",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+    },
+    {
+      "name": "React-Native",
+      "level": "Basico",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ],
+      "image": "https://miro.medium.com/v2/resize:fit:1024/1*xDi2csEAWxu95IEkaNdFUQ.png"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Ingles",
+      "fluency": "B1"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Shaddai (Ecommerce)",
+      "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
+      "isActive": true,
+      "description": "Tienda Online sobre venta de Biblia Reina Valera",
+      "highlights": [
+        "Encuentra todo el material cristiano aqui",
+        "En desarrollo"
+      ],
+      "url": "https://shaddai-app-psi.vercel.app",
+      "github": "https://github.com/KleibertM/Munay"
+    },
+    {
+      "name": "Vamos!! ONG",
+      "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
+      "isActive": true,
+      "description": "App de servicios de transporte turistico",
+      "highlights": [
+        "Trnasporte de Aeropuerto",
+        "Responsive",
+        "JavaScript"
+      ],
+      "url": "https://vamos-app.vercel.app",
+      "github": "https://github.com/KleibertM/Munay"
+    },
+    {
+      "name": "Codember",
+      "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
+      "isActive": true,
+      "description": "Juego interactivo de programación con retos y secretos",
+      "highlights": [
+        "+2000 usuarios activos",
+        "Retos para cualquier lenguaje"
+      ],
+      "url": "https://codember.dev",
+      "github": "https://github.com/KleibertM/Munay"
+    },
+    {
+      "name": "Munay",
+      "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
+      "isActive": true,
+      "description": "Tienda virtual para vender helados, gestion de ventas y ganancias",
+      "highlights": [
+        "100k visitas al mes",
+        "En desarrollo"
+      ],
+      "url": "https://codi.link",
+      "github": "https://github.com/KleibertM/Munay"
+    },
+    {
+      "name": "Pruebas Técnicas",
+      "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
+      "isActive": true,
+      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "highlights": [
+        "100% gratuito",
+        "+500 soluciones de la comunidad"
+      ],
+      "url": "https://pruebastecnicas.com",
+      "github": "https://github.com/midudev/pruebas-tecnicas"
+    },
+    {
+      "name": "miduConf",
+      "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
+      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+      "highlights": [
+        "+15k tickets repartidos",
+        "+50k espectadores en directo"
+      ],
+      "url": "https://miduconf.com",
+      "github": "https://github.com/KleibertM/Munay"
+    }
+  ]
+}
