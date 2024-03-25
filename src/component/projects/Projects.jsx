@@ -8,16 +8,20 @@ import BtnLink from '../BtnLink';
 const Projects = () => {
     return (
         <>
-        <Flex align={'center'} justify={'center'} flexDirection={'column'} gap={4} h={'100vh'} w={'100vw'}>
+        <Flex align={'center'} justify={'center'} flexDirection={'column'} gap={4} h={'100vh'} w={['auto', '1280px']}  margin={' 0 auto'}>
             <Heading color={'#fff'} >Proyectos</Heading>
             <Grid
                 templateRows='repeat(1, 1fr)'
                 templateColumns='repeat(3, 1fr)'
-                gap={2}
+                gap={4}
                 overflowY={'scroll'}
+                w={['auto', '1100px']}
+                maxW={'1280px'}
+                paddingY={4}
             >
                 {projects?.map((item, index) => (
-                    <GridItem key={index} >
+                    <GridItem key={index} 
+                    margin={' 0 auto'}>
                         <Card w={['auto', '320px']}  h={['auto', '350px']}  position={'relative'}>
                             <CardBody>
                                 <Image

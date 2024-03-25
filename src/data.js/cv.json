@@ -7,7 +7,7 @@
     "phone": "51976963819",
     "url": "https://github.com/KleibertM",
     "linkdin": "https://www.linkedin.com/in/kleibert-jose-medina-gomez-19a6a412a/",
-    "summary": "+1 año de experiencia como Desarrollador Web. Full Stack Developer con un enfoque creativo y una pasión por la innovación tecnológica. Con una sólida experiencia en el desarrollo de aplicaciones web y móviles, me especializo en tecnologías como NodeJS, React, React Native, MySQL y PostgreSQL..",
+    "summary": "+1 año de experiencia como Desarrollador Web. Con un enfoque creativo y una pasión por la innovación tecnológica. Con una sólida experiencia en el desarrollo de aplicaciones web y móviles, me especializo en tecnologías como NodeJS, React, React Native, MySQL y PostgreSQL..",
     "location": {
       "address": "Los Olivos",
       "postalCode": "15301",
@@ -299,7 +299,7 @@
   "projects": [
     {
       "name": "Shaddai (Ecommerce)",
-      "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
+      "image": "https://i.ibb.co/f1MXh2V/Vamos-Brave-24-03-2024-23-37-58.png",
       "isActive": true,
       "description": "Tienda Online sobre venta de Biblia Reina Valera",
       "highlights": [
@@ -310,8 +310,8 @@
       "github": "https://github.com/KleibertM/Munay"
     },
     {
-      "name": "Vamos!! ONG",
-      "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
+      "name": "Vamos!! (ONG)",
+      "image": "https://i.ibb.co/R2kwffC/Vamos-Brave-24-03-2024-23-37-21.png",
       "isActive": true,
       "description": "App de servicios de transporte turistico",
       "highlights": [
@@ -323,18 +323,6 @@
       "github": "https://github.com/KleibertM/Munay"
     },
     {
-      "name": "Codember",
-      "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev",
-      "github": "https://github.com/KleibertM/Munay"
-    },
-    {
       "name": "Munay",
       "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
       "isActive": true,
@@ -343,31 +331,29 @@
         "100k visitas al mes",
         "En desarrollo"
       ],
-      "url": "https://codi.link",
+      "url": "https://munayapp-store.vercel.app/",
       "github": "https://github.com/KleibertM/Munay"
     },
     {
-      "name": "Pruebas Técnicas",
+      "name": "VideoGames (gameHub)",
       "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
       "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "description": "Proyecto para consumir datos de una Api de video juegos. Ejecutando arquitectura MVC, Express, NodeJS, React.",
       "highlights": [
         "100% gratuito",
         "+500 soluciones de la comunidad"
       ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
+      "github": "https://github.com/KleibertM/PI-Videogames-main"
     },
     {
-      "name": "miduConf",
+      "name": "Nasa App",
       "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+      "description": "Proyecto creado con React-Native, consumo de Api, manejo de maquetacion mobile.",
       "highlights": [
         "+15k tickets repartidos",
         "+50k espectadores en directo"
       ],
-      "url": "https://miduconf.com",
-      "github": "https://github.com/KleibertM/Munay"
+      "github": "https://github.com/KleibertM/nasa-app"
     }
   ]
 }
