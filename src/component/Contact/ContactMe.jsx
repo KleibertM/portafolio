@@ -1,7 +1,9 @@
 import { Flex, } from '@chakra-ui/react';
-import BtnLink from '../BtnLink';
+import { lazy } from 'react';
 import { basics } from '../../data.js/cv.json'
 import { BsGithub, BsEnvelopePlusFill, BsLinkedin, BsWhatsapp } from "react-icons/bs";
+
+const BtnLink = lazy(() => import('../BtnLink'))
 
 const ContactMe = () => {
     return (

@@ -19,13 +19,13 @@ const ComponentSkills = ({ skills, speed }) => {
           {
             breakpoint: 768,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 5,
             },
           },
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 4,
             },
           },
         ],
@@ -37,9 +37,13 @@ const ComponentSkills = ({ skills, speed }) => {
         {skills.map((item, index) => (
           <Box key={index} px={2} alignContent={'center'} justifyContent={'center'} >
             <Tooltip label={item.keywords} placement='top' bg='white' color='#2E4053'>
-
-            <Image src={item.image} alt={item.name} borderRadius={50} h={['auto', '100px']}  w={['auto', '100px']}
+            <Image 
+            src={item.image} 
+            alt={item.name} 
+            borderRadius={50} 
+            h={['60px', '100px']}  w={['60px', '100px']}
             objectFit={'cover'}
+            loading='lazy'
             bg={'white'}/>
             </Tooltip>
           </Box>

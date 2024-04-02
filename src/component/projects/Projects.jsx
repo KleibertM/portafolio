@@ -1,23 +1,24 @@
-import { Grid, GridItem, Card, CardHeader, CardBody, CardFooter, Image, Heading,  Text, Button, ButtonGroup, Stack, Link, Flex} from '@chakra-ui/react'
+import { Grid, GridItem, Card, CardBody, Image, Heading,  Text, ButtonGroup, Flex} from '@chakra-ui/react'
 import { projects } from '../../data.js/cv.json'
-import { BsGithub, BsGlobe, BsEnvelopePlusFill, BsLinkedin, BsWhatsapp } from "react-icons/bs";
-import BtnLink from '../BtnLink';
+import { BsGithub, BsGlobe } from "react-icons/bs";
+import { lazy } from 'react';
 
-
+const BtnLink = lazy(() => import('../BtnLink'))
 
 const Projects = () => {
     return (
         <>
-        <Flex align={'center'} justify={'center'} flexDirection={'column'} gap={4} h={'100vh'} w={['auto', '1280px']}  margin={' 0 auto'}>
+        <Flex align={'center'} justify={'center'} flexDirection={'column'} gap={4} h={['auto','100vh']} w={['auto', '1280px']}  margin={'0 auto'}>
             <Heading color={'#fff'} >Proyectos</Heading>
             <Grid
-                templateRows='repeat(1, 1fr)'
-                templateColumns='repeat(3, 1fr)'
+                templateRows={['repeat(1, 1fr)','repeat(1, 1fr)']}
+                templateColumns={['repeat(2, 1fr)','repeat(3, 1fr)']}
                 gap={4}
                 overflowY={'scroll'}
                 w={['auto', '1100px']}
                 maxW={'1280px'}
                 paddingY={4}
+                p={4}
             >
                 {projects?.map((item, index) => (
                     <GridItem key={index} 
@@ -28,15 +29,16 @@ const Projects = () => {
                                     src={item.image}
                                     alt={item.name}
                                     borderRadius='lg'
+                                    loading='lazy'
                                 />
-                                <Flex  spacing='3' p='0'  h={'7rem'} flexDirection={'column'} gap={2} paddingTop={4}>
+                                <Flex  spacing='3' p='0'  h={['10rem','7rem']} flexDirection={'column'} gap={2} paddingTop={4}>
                                     <Heading size='md'> {item.name} </Heading>
-                                    <Text h={['auto', '4rem']} overflowX={'auto'}>
+                                    <Text h={['6rem', '4rem']} overflowX={'auto'}>
                                         {item.description}
                                     </Text>
                                 </Flex>
-                            <Flex align={'center'} justify={'center'}  >
-                                <ButtonGroup spacing='2'>
+                            <Flex align={'center'} justify={'center'} paddingY={1}  >
+                                <ButtonGroup alignContent={'center'} justifyContent={'space-evenly'} w={'100%'} paddingY={1} >
                                 <BtnLink link={item.github} icon={<BsGithub />} name='GitHub' />
 
                                 <BtnLink link={item.url} icon={<BsGlobe />} name='Web Site' />
