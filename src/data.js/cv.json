@@ -78,6 +78,7 @@
   ],
   "education": [
     {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV5ViOSZMnLp9ouO1_28F7UL874gr0Paeifg&s",
       "institution": "SoyHenry (BootCamp)",
       "url": "https://www.soyhenry.com",
       "area": "Full Stack Developer",
@@ -94,7 +95,8 @@
       ]
     },
     {
-      "institution": "instituto Senati",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjQ2acxzRb2xrHYBl13xYz5HritNwuVwJHlDa17dYpQzysrUY3NlUeVi36pnD2-jwSFWg",
+      "institution": "Instituto Senati",
       "url": "https://www.senati.edu.pe/",
       "area": "Diseño y Desarrollo Web",
       "studyType": "Bachiller",
@@ -121,10 +123,16 @@
   ],
   "certificates": [
     {
-      "name": "Desarrollo Full Stack",
+      "name": "Full Stack Developer",
       "date": "2024-02-09",
       "issuer": "Henry",
       "url": "https://d2rf2c6bvm78n9.cloudfront.net/new-cert?id=b67cba97b556c23c7abc01ca38fd375a9beff87c488a8fe23064f5277e4859ca"
+    },
+    {
+      "name": "SQL Basic",
+      "date": "2023-09-01",
+      "issuer": "HackerRank",
+      "url": "https://drive.google.com/file/d/1C7cGBVCsnl5plvJxcOWHhSaC5tLrWKjX/view?usp=sharing"
     }
   ],
   "publications": [
@@ -316,7 +324,7 @@
         "Ferrets",
         "Unicorns"
       ],
-      "image": "https://photos.google.com/u/0/search/_eAF1QipMR3RRwOl5RufO-CgZig38YnMBUpFiLc6w_bicicletas/photo/AF1QipMoK68uK1jbsM8xuqFfXd6dEXxXogiUALWHVBB1?hl=es"
+      "image": "https://www.switchbacktravel.com/sites/default/files/images/landing-page/Mountain%20Bike%20%28landing%20page%29.jpg"
     },
     {
       "name": "Basketball",
@@ -325,7 +333,7 @@
         "Ferrets",
         "Unicorns"
       ],
-      "image": "https://photos.google.com/u/0/search/_eAF1QipMR3RRwOl5RufO-CgZig38YnMBUpFiLc6w_bicicletas/photo/AF1QipMoK68uK1jbsM8xuqFfXd6dEXxXogiUALWHVBB1?hl=es"
+      "image": "https://cdnpro.eraspace.com/media/mageplaza/blog/post/g/a/game_basket.jpg.jpeg"
     },
     {
       "name": "Photographic",
@@ -333,7 +341,7 @@
       "keywords": [
         "Fotografia"
       ],
-      "image": "https://photos.google.com/u/0/search/_cAF1QipMtHw8wTAt0u3sQzjx-w-WzhCS9d7ag2iw_/photo/AF1QipNk6x2upFCh_FSpuTrHJhSrrMGn4F0pShRqx3O8?hl=es"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/USAF_photographer.jpg"
     }
   ],
   "references": [

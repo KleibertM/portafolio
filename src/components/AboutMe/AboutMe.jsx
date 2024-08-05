@@ -1,17 +1,20 @@
-import { Flex, Image,Badge, Highlight, Heading, Container, Accordion, AccordionItem, AccordionButton, Box, AccordionIcon, AccordionPanel } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 import Interests from './Interests';
-import { languages } from "../../data.js/cv.json";
+
+import Study from './Study';
+import Articles from './Articles';
+import Languajes from './Languajes';
 
 const AboutMe = () => {
     return (
         <>
-        {languages.map((item, index) => (
-            <Flex key={index} gap={4}>
-                 <Badge> {item.language} </Badge>
-                 <Badge colorScheme='green'> {item.fluency} </Badge>
+        <Flex flexDirection={'column'}>
+            <Flex justify={'space-evenly'}>
+        <Articles title={'Estudios'} content={<Study/> }/>
+        <Articles title={'Hobbies'} content={<Interests/> } />
             </Flex>
-        ))}
-        <Interests/>
+        <Articles title={'Languajes'} content={<Languajes/> } />
+        </Flex>
         </>
     )
 }

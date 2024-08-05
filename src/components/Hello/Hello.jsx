@@ -7,7 +7,7 @@ import BtnLink from '../Btn/BtnLink';
 const Hello = () => {
     return (
         <>
-            <Flex flexDirection={['column', 'row']} align={'center'} justify={'center'} h={['auto', '400px']} maxW={1280} w={['350px', '100%']} >
+            <Flex flexDirection={['column', 'row']} align={'center'} justify={'center'} h={['auto', '400px']} maxW={1280} w={['fit', '100%']} paddingTop={['60px', '80px']}>
                 <Flex justify={'center'} w={['100%', '50%']} h={['auto', '300px']} >
                     <Image
                         borderRadius={'100%'}
