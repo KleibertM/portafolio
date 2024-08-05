@@ -1,20 +1,15 @@
 import './App.css'
-import AboutMe from './component/About/AboutMe'
-import { lazy } from 'react';
-
-const Projects = lazy(() => import('./component/projects/Projects'))
-const Skills = lazy(() => import('./component/Skill/Skills'))
-const ContactMe = lazy(() => import('./component/Contact/ContactMe'))
-
+import Hello from './components/Hello/Hello'
+import Nav from './components/Navbar/Nav'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
 
   return (
     <>
-      <AboutMe/>
-      <Projects/>
-      <Skills />
-      <ContactMe />
+    <Nav/>
+    <Hello/>
+    <Navbar/>
     </>
   )
 }

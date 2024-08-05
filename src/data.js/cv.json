@@ -1,13 +1,13 @@
 {
   "basics": {
     "name": "Kleibert Medina",
-    "label": "Full Stack Developer con más de 1 años de experiencia.",
+    "label": "Full Stack Developer.",
     "image": "",
     "email": "kleibertmedina@gmail.com",
     "phone": "51976963819",
     "url": "https://github.com/KleibertM",
     "linkdin": "https://www.linkedin.com/in/kleibert-jose-medina-gomez-19a6a412a/",
-    "summary": "+1 año de experiencia como Desarrollador Web. Con un enfoque creativo y una pasión por la innovación tecnológica. Con una sólida experiencia en el desarrollo de aplicaciones web y móviles, me especializo en tecnologías como NodeJS, React, React Native, MySQL y PostgreSQL..",
+    "summary": "Siempre listo para enfrentar nuevos desafíos. Estoy especialmente interesado en aprender más sobre seguridad y buen diseño web. Creo que un sitio web no solo debe ser funcional y eficiente, sino también seguro y visualmente atractivo.",
     "location": {
       "address": "Los Olivos",
       "postalCode": "15301",
@@ -20,11 +20,6 @@
         "network": "LinkedIn",
         "username": "kleibert",
         "url": "www.linkedin.com/in/kleibert-jose-medina-gomez-19a6a412a"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
       },
       {
         "network": "GitHub",
@@ -57,11 +52,12 @@
       ]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "Munay",
+      "position": "Desarrollador General",
+      "url": "https://munayapp-store.vercel.app/",
+      "startDate": "2016-02-10",
+      "endDate": null,
+      "summary": "Lideró la creacion de la app, encargado del desarrollo del sistema completo, manejo de hooks, redux, base de datos, deploy, y otros servicios",
       "highlights": [
         "Started the company"
       ]
@@ -140,137 +136,168 @@
       "summary": "Description…"
     }
   ],
-  "skills": [
-    {
-      "name": "HTML",
-      "level": "Intermedio",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend"
+  "skills": {
+      "Frontend": [
+        {
+          "name": "HTML",
+          "level": "Intermedio",
+          "keywords": [
+            "Desarrollo Web",
+            "Frontend"
+          ],
+          "image": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
+        },
+        {
+          "name": "CSS",
+          "level": "Intermedio",
+          "keywords": [
+            "Desarrollo Web",
+            "Frontend",
+            "Diseño Responsive"
+          ],
+          "image": "https://cdn-icons-png.flaticon.com/512/919/919826.png"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Intermedio",
+          "keywords": [
+            "Desarrollo Web",
+            "Frontend",
+            "Backend",
+            "Fullstack"
+          ],
+          "image": "https://static-00.iconduck.com/assets.00/javascript-js-icon-2048x2048-nyxvtvk0.png"
+        },
+        {
+          "name": "Tailwind",
+          "level": "Básico",
+          "keywords": [
+            "Desarrollo Web",
+            "Frontend",
+            "CSS Framework",
+            "Diseño Responsive"
+          ],
+          "image": "https://www.svgrepo.com/show/374118/tailwind.svg"
+        },
+        {
+          "name": "TypeScript",
+          "level": "Básico",
+          "keywords": [
+            "Desarrollo Web",
+            "Frontend",
+            "Backend",
+            "JavaScript Superset"
+          ],
+          "image": "https://cdn-icons-png.flaticon.com/512/919/919832.png"
+        },
+        {
+          "name": "Next.js",
+          "level": "Básico",
+          "keywords": [
+            "Desarrollo Web",
+            "Frontend",
+            "React Framework",
+            "SSR",
+            "Static Generation"
+          ],
+          "image": "https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png"
+        },
+        {
+          "name": "React",
+          "level": "Intermedio",
+          "keywords": [
+            "Desarrollo Web",
+            "Frontend",
+            "JavaScript Library",
+            "UI"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+        },
+        {
+          "name": "React-Native",
+          "level": "Básico",
+          "keywords": [
+            "Desarrollo Web",
+            "Frontend",
+            "JavaScript Library",
+            "UI"
+          ],
+          "image": "https://miro.medium.com/v2/resize:fit:1024/1*xDi2csEAWxu95IEkaNdFUQ.png"
+        }
       ],
-      "image": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
-    },
-    {
-      "name": "CSS",
-      "level": "Intermedio",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Diseño Responsive"
+      "Backend": [
+        {
+          "name": "JavaScript",
+          "level": "Intermedio",
+          "keywords": [
+            "Desarrollo Web",
+            "Frontend",
+            "Backend",
+            "Fullstack"
+          ],
+          "image": "https://static-00.iconduck.com/assets.00/javascript-js-icon-2048x2048-nyxvtvk0.png"
+        },
+        {
+          "name": "TypeScript",
+          "level": "Básico",
+          "keywords": [
+            "Desarrollo Web",
+            "Frontend",
+            "Backend",
+            "JavaScript Superset"
+          ],
+          "image": "https://cdn-icons-png.flaticon.com/512/919/919832.png"
+        },
+        {
+          "name": "Node",
+          "level": "Intermedio",
+          "keywords": [
+            "Desarrollo Web",
+            "Backend",
+            "JavaScript",
+            "Servidor"
+          ],
+          "image": "https://cdn-icons-png.flaticon.com/512/919/919825.png"
+        }
       ],
-      "image": "https://cdn-icons-png.flaticon.com/512/919/919826.png"
-    },
-    {
-      "name": "JavaScript",
-      "level": "Intermedio",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
+      "DataBase": [
+        {
+          "name": "MySQL",
+          "level": "Intermedio",
+          "keywords": [
+            "Bases de Datos",
+            "SQL",
+            "Almacenamiento de Datos",
+            "Backend"
+          ],
+          "image": "https://cdn-icons-png.flaticon.com/512/919/919836.png"
+        }
       ],
-      "image": "https://static-00.iconduck.com/assets.00/javascript-js-icon-2048x2048-nyxvtvk0.png"
-    },
-    {
-      "name": "Tailwind",
-      "level": "Basico",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "CSS Framework",
-        "Diseño Responsive"
-      ],
-      "image": "https://www.svgrepo.com/show/374118/tailwind.svg"
-    },
-    {
-      "name": "TypeScript",
-      "level": "Basico",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ],
-      "image": "https://cdn-icons-png.flaticon.com/512/919/919832.png"
-    },
-    {
-      "name": "Node",
-      "level": "Intermedio",
-      "keywords": [
-        "Desarrollo Web",
-        "Backend",
-        "JavaScript",
-        "Servidor"
-      ],
-      "image": "https://cdn-icons-png.flaticon.com/512/919/919825.png"
-    },
-    {
-      "name": "MySQL",
-      "level": "Intermedio",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ],
-      "image": "https://cdn-icons-png.flaticon.com/512/919/919836.png"
-    },
-    {
-      "name": "Git",
-      "level": "Intermedio",
-      "keywords": [
-        "Control de Versiones ",
-        "Colaboración ",
-        "Código Fuente "
-      ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png"
-    },
-    {
-      "name": "GitHub",
-      "level": "Intermedio",
-      "keywords": [
-        "Control de Versiones ",
-        "Colaboración ",
-        "Código Fuente ",
-        "Git "
-      ],
-      "image": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
-    },
-    {
-      "name": "Next.js",
-      "level": "Basico",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ],
-      "image": "https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png"
-    },
-    {
-      "name": "React",
-      "level": "Intermedio",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
-    },
-    {
-      "name": "React-Native",
-      "level": "Basico",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ],
-      "image": "https://miro.medium.com/v2/resize:fit:1024/1*xDi2csEAWxu95IEkaNdFUQ.png"
+      "ConVer": [
+        {
+          "name": "Git",
+          "level": "Intermedio",
+          "keywords": [
+            "Control de Versiones",
+            "Colaboración",
+            "Código Fuente"
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png"
+        },
+        {
+          "name": "GitHub",
+          "level": "Intermedio",
+          "keywords": [
+            "Control de Versiones",
+            "Colaboración",
+            "Código Fuente",
+            "Git"
+          ],
+          "image": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+        }
+      ]
     }
-  ],
+    ,
   "languages": [
     {
       "language": "Español",
@@ -283,17 +310,47 @@
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Rider",
+      "description": "Me gusta manejar bicicleta, ayuda a relajarme, ademas que que me permite estar en buenas condiciones de salud, siempre he querido practicar MountainBike.",
       "keywords": [
         "Ferrets",
         "Unicorns"
-      ]
+      ],
+      "image": "https://photos.google.com/u/0/search/_eAF1QipMR3RRwOl5RufO-CgZig38YnMBUpFiLc6w_bicicletas/photo/AF1QipMoK68uK1jbsM8xuqFfXd6dEXxXogiUALWHVBB1?hl=es"
+    },
+    {
+      "name": "Basketball",
+      "description": "Mi deportivo favorito, lo practico desde chico, me apasiona todo del basket, mi sueño es ir a un juego de NBA, esto es indescriptible el amor que siento por este deporte.",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ],
+      "image": "https://photos.google.com/u/0/search/_eAF1QipMR3RRwOl5RufO-CgZig38YnMBUpFiLc6w_bicicletas/photo/AF1QipMoK68uK1jbsM8xuqFfXd6dEXxXogiUALWHVBB1?hl=es"
+    },
+    {
+      "name": "Photographic",
+      "description": "La fotografia es una habilidad que me ayuda a empresarme, me encantan los paisajes, fotos de animales, estoy buscando mejorar en las Macro fotos, pues la vida que hay alli me llena de curiosidad.",
+      "keywords": [
+        "Fotografia"
+      ],
+      "image": "https://photos.google.com/u/0/search/_cAF1QipMtHw8wTAt0u3sQzjx-w-WzhCS9d7ag2iw_/photo/AF1QipNk6x2upFCh_FSpuTrHJhSrrMGn4F0pShRqx3O8?hl=es"
     }
   ],
   "references": [
     {
-      "name": "Jane Doe",
-      "reference": "Reference…"
+      "name": "Fredy Mendez",
+      "reference": "Actual propietario de mi lugar de trabajo.",
+      "number": "+ 51 976 963 819"
+    },
+    {
+      "name": "Fredy Mendez",
+      "reference": "Actual propietario de mi lugar de trabajo.",
+      "number": "+ 51 976 963 819"
+    },
+    {
+      "name": "Fredy Mendez",
+      "reference": "Actual propietario de mi lugar de trabajo.",
+      "number": "+ 51 976 963 819"
     }
   ],
   "projects": [
