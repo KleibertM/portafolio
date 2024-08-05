@@ -1,7 +1,5 @@
 import { Card, Text, Badge, CardBody, CardFooter, Stack, Image, Heading, Button } from '@chakra-ui/react'
 import {education} from '../../data.js/cv.json'
-import { TbWorldCheck } from "react-icons/tb";
-import BtnLink from '../Btn/BtnLink';
 
 
 const Study = () => {
@@ -13,18 +11,21 @@ const Study = () => {
                 overflow='hidden'
                 variant='outline'
                 key={index}
+                w={['auto','450px']}
+                h={['auto','200px']}
+                marginBottom={4}
             >
                 <Image
                     objectFit='cover'
                     maxW={{ base: '100%', sm: '200px' }}
                     src={item.image}
                     alt={item.institution}
+                    loading='lazy'
                 />
-
                 <Stack>
                     <CardBody>
                         <Heading size='md' > {item.institution} </Heading>
-                        <Text>Cursos:</Text>
+                        <Text>Courses:</Text>
                         {item.courses.map((skill, index) => (
                         <Badge marginX={1} variant='outline' colorScheme='green' key={index} >
                             {skill}
@@ -32,11 +33,6 @@ const Study = () => {
 
                         ))}
                     </CardBody>
-
-                    <CardFooter>
-                    <BtnLink link={item.url} icon={<TbWorldCheck />} name={'Web Site'} color={'black'} />
-
-                    </CardFooter>
                 </Stack>
             </Card>
         ))}

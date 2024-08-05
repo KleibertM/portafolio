@@ -1,20 +1,25 @@
 import { Flex } from '@chakra-ui/react'
-import Interests from './Interests';
+// import Interests from './Interests';
+// import Study from './Study';
+// import Languajes from './Languajes';
+// import Articles from './Articles';
+import { lazy } from 'react';
 
-import Study from './Study';
-import Articles from './Articles';
-import Languajes from './Languajes';
+const Articles = lazy(() => import('./Articles'));
+const Languajes = lazy(() => import('./Languajes'));
+const Study = lazy(() => import('./Study'));
+const Interests = lazy(() => import('./Interests'));
 
 const AboutMe = () => {
     return (
         <>
-        <Flex flexDirection={'column'}>
-            <Flex justify={'space-evenly'}>
-        <Articles title={'Estudios'} content={<Study/> }/>
-        <Articles title={'Hobbies'} content={<Interests/> } />
+            <Flex justify={'center'} flexDirection={['column', 'row']}>
+                <Flex flexDirection={'column'}  >
+                    <Articles title={'Studies'} content={<Study />} />
+                    <Articles title={'Languages'} content={<Languajes />} />
+                </Flex>
+                    <Articles title={'Hobbies'} content={<Interests />} />
             </Flex>
-        <Articles title={'Languajes'} content={<Languajes/> } />
-        </Flex>
         </>
     )
 }

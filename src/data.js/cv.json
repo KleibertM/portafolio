@@ -7,7 +7,7 @@
     "phone": "51976963819",
     "url": "https://github.com/KleibertM",
     "linkdin": "https://www.linkedin.com/in/kleibert-jose-medina-gomez-19a6a412a/",
-    "summary": "Siempre listo para enfrentar nuevos desafíos. Estoy especialmente interesado en aprender más sobre seguridad y buen diseño web. Creo que un sitio web no solo debe ser funcional y eficiente, sino también seguro y visualmente atractivo.",
+    "summary": "Always ready to face new challenges. I'm especially interested in learning more about security and good web design. I believe that a website should not only be functional and efficient, but also secure and visually attractive.",
     "location": {
       "address": "Los Olivos",
       "postalCode": "15301",
@@ -177,6 +177,26 @@
           "image": "https://static-00.iconduck.com/assets.00/javascript-js-icon-2048x2048-nyxvtvk0.png"
         },
         {
+          "name": "Chakra UI",
+          "level": "Intermedio",
+          "keywords": [
+            "Desarrollo Web",
+            "Frontend"
+          ],
+          "image": "https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg"
+        },
+        {
+          "name": "Redux",
+          "level": "Intermedio",
+          "keywords": [
+            "Desarrollo Web",
+            "Frontend",
+            "JavaScript Library",
+            "UI"
+          ],
+          "image": "https://www.bairesdev.com/wp-content/uploads/2020/07/redux.svg"
+        },
+        {
           "name": "Tailwind",
           "level": "Básico",
           "keywords": [
@@ -235,6 +255,17 @@
       ],
       "Backend": [
         {
+          "name": "Express",
+          "level": "Intermedio",
+          "keywords": [
+            "Desarrollo Web",
+            "Frontend",
+            "Backend",
+            "Fullstack"
+          ],
+          "image": "https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png"
+        },
+        {
           "name": "JavaScript",
           "level": "Intermedio",
           "keywords": [
@@ -279,9 +310,31 @@
             "Backend"
           ],
           "image": "https://cdn-icons-png.flaticon.com/512/919/919836.png"
+        },
+        {
+          "name": "PostgreSQL",
+          "level": "Intermedio",
+          "keywords": [
+            "Bases de Datos",
+            "SQL",
+            "Almacenamiento de Datos",
+            "Backend"
+          ],
+          "image": "https://sqltrainning.wordpress.com/wp-content/uploads/2017/03/postgres_logo.png"
+        },
+        {
+          "name": "Firebase DB",
+          "level": "Intermedio",
+          "keywords": [
+            "Bases de Datos",
+            "SQL",
+            "Almacenamiento de Datos",
+            "Backend"
+          ],
+          "image": "https://miro.medium.com/v2/resize:fit:400/1*JktK87FL_sqDDnuxHxe6Fw.png"
         }
       ],
-      "ConVer": [
+      "Version control": [
         {
           "name": "Git",
           "level": "Intermedio",
@@ -308,18 +361,18 @@
     ,
   "languages": [
     {
-      "language": "Español",
-      "fluency": "Nativo"
+      "language": "Spanish",
+      "fluency": "Native"
     },
     {
-      "language": "Ingles",
+      "language": "English",
       "fluency": "B1"
     }
   ],
   "interests": [
     {
-      "name": "Rider",
-      "description": "Me gusta manejar bicicleta, ayuda a relajarme, ademas que que me permite estar en buenas condiciones de salud, siempre he querido practicar MountainBike.",
+      "name": "Bike",
+      "description": "I like riding a bicycle, it helps me relax, and it also allows me to be in good health. I have always wanted to practice MountainBike.",
       "keywords": [
         "Ferrets",
         "Unicorns"
@@ -328,7 +381,7 @@
     },
     {
       "name": "Basketball",
-      "description": "Mi deportivo favorito, lo practico desde chico, me apasiona todo del basket, mi sueño es ir a un juego de NBA, esto es indescriptible el amor que siento por este deporte.",
+      "description": "My favorite sport, I have played it since I was a child, I am passionate about everything about basketball, my dream is to go to an NBA game, the love I feel for this sport is indescribable.",
       "keywords": [
         "Ferrets",
         "Unicorns"
@@ -337,7 +390,7 @@
     },
     {
       "name": "Photographic",
-      "description": "La fotografia es una habilidad que me ayuda a empresarme, me encantan los paisajes, fotos de animales, estoy buscando mejorar en las Macro fotos, pues la vida que hay alli me llena de curiosidad.",
+      "description": "Photography is a skill that helps me in business, I love landscapes, photos of animals, I am looking to improve in Macro photos, because the life that is there fills me with curiosity.",
       "keywords": [
         "Fotografia"
       ],
@@ -364,9 +417,9 @@
   "projects": [
     {
       "name": "Shaddai (Ecommerce)",
-      "image": "https://i.ibb.co/f1MXh2V/Vamos-Brave-24-03-2024-23-37-58.png",
+      "image": "https://i.ibb.co/TMzK46j/Captura-de-pantalla-2024-08-05-175013.png",
       "isActive": true,
-      "description": "Tienda Online sobre venta de Biblia Reina Valera",
+      "description": "Online store for sale of the Reina Valera Bible",
       "highlights": [
         "Encuentra todo el material cristiano aqui",
         "En desarrollo"
@@ -378,7 +431,7 @@
       "name": "Vamos!! (ONG)",
       "image": "https://i.ibb.co/R2kwffC/Vamos-Brave-24-03-2024-23-37-21.png",
       "isActive": true,
-      "description": "App de servicios de transporte turistico",
+      "description": "Tourist transport services app",
       "highlights": [
         "Trnasporte de Aeropuerto",
         "Responsive",
@@ -389,9 +442,9 @@
     },
     {
       "name": "Munay",
-      "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
+      "image": "https://i.ibb.co/sbj5cr0/Captura-de-pantalla-2024-08-05-174703.png",
       "isActive": true,
-      "description": "Tienda virtual para vender helados, gestion de ventas y ganancias",
+      "description": "Virtual store to sell ice cream, sales management.",
       "highlights": [
         "100k visitas al mes",
         "En desarrollo"
@@ -401,9 +454,9 @@
     },
     {
       "name": "VideoGames (gameHub)",
-      "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
+      "image": "https://cdn.vox-cdn.com/thumbor/ER3SYjF43sgM5b7w-Yd4wkztsEI=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/22236383/acastro_210113_1777_gamingstock_0002.jpg",
       "isActive": true,
-      "description": "Proyecto para consumir datos de una Api de video juegos. Ejecutando arquitectura MVC, Express, NodeJS, React.",
+      "description": "Project to consume data from a video game API. Running MVC architecture, Express, NodeJS, React.",
       "highlights": [
         "100% gratuito",
         "+500 soluciones de la comunidad"
@@ -412,8 +465,8 @@
     },
     {
       "name": "Nasa App",
-      "image": "https://img-b.udemycdn.com/course/750x422/4368122_c5cd_2.jpg",
-      "description": "Proyecto creado con React-Native, consumo de Api, manejo de maquetacion mobile.",
+      "image": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/08/03/nasa.jpeg",
+      "description": "Project created with React-Native, API consumption, mobile layout management.",
       "highlights": [
         "+15k tickets repartidos",
         "+50k espectadores en directo"

@@ -24,7 +24,7 @@ const Hello = () => {
                 <Flex justify={'center'} align={'center'} flexDirection={'column'} w={['300px', '50%']} h={['auto', '300px']}>
                     <Heading >Full Stack Developer</Heading>
                     <Text fontSize={'1.3rem'}>
-                        <Highlight query={['seguro', 'diseño web', 'funcional', ' eficiente']} styles={{ px: '1', bg: '#3498db ', borderRadius: '5' }} >
+                        <Highlight query={['security', 'web design', 'functional', ' efficient']} styles={{ px: '1', bg: '#3498db ', borderRadius: '5' }} >
                             {basics.summary}
                         </Highlight>
                     </Text>

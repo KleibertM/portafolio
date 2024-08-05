@@ -5,9 +5,9 @@ const Languajes = () => {
     return (
         <>
          {languages.map((item, index) => (
-            <Flex key={index} gap={4}>
+            <Flex key={index} gap={4} marginY={4}>
                 <Badge> {item.language} </Badge>
-                <Badge colorScheme='green'> {item.fluency} </Badge>
+                <Badge colorScheme='blue'> {item.fluency} </Badge>
             </Flex>
         ))}
         </>
