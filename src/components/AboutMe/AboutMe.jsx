@@ -4,7 +4,7 @@ import { lazy } from 'react';
 const Articles = lazy(() => import('./Articles'));
 const Languajes = lazy(() => import('./Languajes'));
 const Study = lazy(() => import('./Study'));
-const Interest = lazy(() => import('./Interest'));
+const Interests = lazy(() => import('./Interests'));
 
 const AboutMe = () => {
     return (
@@ -14,7 +14,7 @@ const AboutMe = () => {
                         <Articles title={'Studies'} content={<Study />} />
                     <Articles title={'Languages'} content={<Languajes />} />
                 </Flex>
-                    <Articles title={'Hobbies'} content={<Interest />} />
+                    <Articles title={'Hobbies'} content={<Interests />} />
             </Flex>
         </>
     )

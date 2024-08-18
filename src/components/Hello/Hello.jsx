@@ -1,6 +1,6 @@
 import { Flex, Image, Heading, Text, Highlight } from '@chakra-ui/react'
 import { basics } from '../../data.js/cv.json'
-import ban from '../../assets/banner/per.png'
+import ban from '../../assets/banner/per.jpg'
 import { BsGithub, BsEnvelopePlusFill, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import BtnLink from '../Btn/BtnLink';
 
