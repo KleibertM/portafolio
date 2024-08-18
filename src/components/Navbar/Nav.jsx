@@ -27,7 +27,7 @@ const Nav = () => {
             transition="background-color 0.3s ease"
             > 
                 <Flex gap={[2, 4]} align={'center'}>
-                    <Avatar name='Kleibert Kode' src={icon} />
+                    <Avatar name='Kleibert Kode' src={icon} loading='lazy'/>
                     <Heading fontSize={['1.2rem', '2rem']}> Kleibert M.</Heading>
                 </Flex>
 

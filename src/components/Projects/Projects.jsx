@@ -3,6 +3,8 @@ import {Flex, Heading , Image,Text, Link as ChakraLink} from '@chakra-ui/react'
 import BtnLink from '../Btn/BtnLink'
 import { BsGithub,} from "react-icons/bs";
 import { TbWorldCheck } from "react-icons/tb";
+import { Suspense } from 'react';
+import SkeletonCard from '../Skeletor';
 const Projects = () => {
     return (
         <>
@@ -12,6 +14,7 @@ const Projects = () => {
                 marginY={4}
                 padding={2}
                 w={['100%','100%']}>
+                    <Suspense fallback={<SkeletonCard/>} >
                     <Flex h={['200px', '250px']} w={['100%','50%']} position={'relative'} gap={2}>
                         <a href={item.url} target='_blank'>
                         <Image
@@ -36,6 +39,7 @@ const Projects = () => {
                         <Text fontSize={['1.2rem', '2rem']}>{item.description}</Text>
                         
                     </Flex>
+                    </Suspense>
                 </Flex>
             ))}
         </>

@@ -3,10 +3,13 @@ import { basics } from '../../data.js/cv.json'
 import ban from '../../assets/banner/per.png'
 import { BsGithub, BsEnvelopePlusFill, BsLinkedin, BsWhatsapp} from "react-icons/bs";
 import BtnLink from '../Btn/BtnLink';
+import { Suspense } from 'react';
+import SkeletonCard from '../Skeletor';
 
 const Hello = () => {
     return (
         <>
+        <Suspense fallback={<SkeletonCard/>}>
             <Flex flexDirection={['column', 'row']} align={'center'} justify={'center'} h={['auto', '400px']} maxW={1280} w={['fit', '100%']} paddingTop={['60px', '80px']}>
                 <Flex justify={'center'} w={['100%', '50%']} h={['auto', '300px']} >
                     <Image
@@ -15,7 +18,6 @@ const Hello = () => {
                         alt='Kleibert Medina'
                         objectFit={'cover'}
                         loading='lazy'
-                        dropShadow='0 0 10px black'
                         h={['200px', '300px']}
                         w={['200px', '300px']}
                         outline={'5px solid #3498db'}
@@ -41,6 +43,7 @@ const Hello = () => {
                 </Flex>
 
             </Flex>
+        </Suspense>
         </>
     )
 }
