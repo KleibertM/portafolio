@@ -1,5 +1,5 @@
 import { skills } from '../../data.js/cv.json'
-import { Flex, Avatar, Heading, Image, Text } from '@chakra-ui/react'
+import { Flex, Avatar, Heading, Text } from '@chakra-ui/react'
 import { Suspense } from 'react'
 import SkeletonCard from '../Skeletor'
 

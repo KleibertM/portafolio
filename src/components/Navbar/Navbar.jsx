@@ -1,7 +1,4 @@
-import { Tabs, TabList, TabPanels, Tab, TabPanel, Flex } from '@chakra-ui/react'
-// import Skill from '../Skill/Skill';
-// import Projects from '../Projects/Projects';
-// import AboutMe from '../AboutMe/AboutMe';
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import { lazy, Suspense } from 'react';
 import SkeletonCard from '../Skeletor';
 
@@ -18,7 +15,6 @@ const Navbar = () => {
                     <Tab fontWeight={'bold'} >Projects</Tab>
                     <Tab fontWeight={'bold'} >Skills</Tab>
                     <Tab fontWeight={'bold'} >About Me</Tab>
-                    {/* <Tab>Contacto</Tab> */}
                 </TabList>
                 <TabPanels overflow={'scroll'}>
                     <TabPanel>
@@ -36,9 +32,6 @@ const Navbar = () => {
                             <AboutMe />
                         </Suspense>
                     </TabPanel>
-                    {/* <TabPanel>
-                        <p>two!</p>
-                    </TabPanel> */}
                 </TabPanels>
             </Tabs>
         </>
