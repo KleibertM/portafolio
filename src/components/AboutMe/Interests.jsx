@@ -1,5 +1,5 @@
 import { interests } from '../../data.js/cv.json'
-import { Flex, Avatar, Heading, Image, Text } from '@chakra-ui/react'
+import { Flex, Heading, Image, Text } from '@chakra-ui/react'
 
 const Interests = () => {
 
@@ -10,8 +10,11 @@ const Interests = () => {
                     w={['auto', '450px']}
                     h={['auto', '250px']}
                     position={'relative'}
-                    marginBottom={4}>
-                    <Flex overflow={'hidden'}>
+                    marginBottom={4}
+                    borderRadius={10}
+                    overflow={'hidden'}
+                    boxShadow={'0 0 8px #3498db'}>
+                    <Flex >
                         <Image
                             src={item.image}
                             alt={item.name}
@@ -21,7 +24,7 @@ const Interests = () => {
                             _hover={{
                                 cursor: 'pointer'
                             }}
-                            borderRadius={10}
+                            
                             loading='lazy'
                         />
                     </Flex>
@@ -33,12 +36,14 @@ const Interests = () => {
                         h="100%"
                         bg="rgba(0, 0, 0, 0.5)"  // Semi-transparent background
                         color="white"
-                        p={4}>
+                        p={4}
+                        gap={2}>
                         <Heading>{item.name}</Heading>
                         <Text 
                         bg="rgba(0, 0, 0, 0.5)" 
                         padding={2}
                         borderRadius={10}
+                        overflowX={'auto'}
                         >{item.description}</Text>
                     </Flex>
                 </Flex>

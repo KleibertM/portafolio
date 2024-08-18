@@ -25,6 +25,7 @@ const Study = () => {
                 <Stack>
                     <CardBody>
                         <Heading size='md' > {item.institution} </Heading>
+                        <Heading size='sm' color={'#3498db'}> {item.area} </Heading>
                         <Text>Courses:</Text>
                         {item.courses.map((skill, index) => (
                         <Badge marginX={1} variant='outline' colorScheme='green' key={index} >
