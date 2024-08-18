@@ -1,9 +1,6 @@
 import { Flex } from '@chakra-ui/react'
-// import Interests from './Interests';
-// import Study from './Study';
-// import Languajes from './Languajes';
-// import Articles from './Articles';
-import { lazy } from 'react';
+import { lazy, Suspense } from 'react';
+import SkeletonCard from '../Skeletor';
 
 const Articles = lazy(() => import('./Articles'));
 const Languajes = lazy(() => import('./Languajes'));
@@ -15,10 +12,16 @@ const AboutMe = () => {
         <>
             <Flex justify={'center'} flexDirection={['column', 'row']}>
                 <Flex flexDirection={'column'}  >
-                    <Articles title={'Studies'} content={<Study />} />
+                    <Suspense fallback={<SkeletonCard />}>
+                        <Articles title={'Studies'} content={<Study />} />
+                    </Suspense>
+                    <Suspense fallback={<SkeletonCard />}>
                     <Articles title={'Languages'} content={<Languajes />} />
+                    </Suspense>
                 </Flex>
+                <Suspense fallback={<SkeletonCard />}>
                     <Articles title={'Hobbies'} content={<Interests />} />
+                </Suspense>
             </Flex>
         </>
     )

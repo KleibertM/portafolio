@@ -1,4 +1,4 @@
-import { Card, Text, Badge, CardBody, CardFooter, Stack, Image, Heading, Button } from '@chakra-ui/react'
+import { Card, Text, Badge, CardBody, Stack, Image, Heading } from '@chakra-ui/react'
 import {education} from '../../data.js/cv.json'
 
 
