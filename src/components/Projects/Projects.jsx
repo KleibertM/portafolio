@@ -13,7 +13,8 @@ const Projects = () => {
                 gap={4}
                 marginY={4}
                 padding={2}
-                w={['100%','100%']}>
+                w={['100%','100%']}
+                maxH={['auto', '270px']}>
                     <Suspense fallback={<SkeletonCard/>} >
                     <Flex h={['200px', '250px']} w={['100%','50%']} position={'relative'} gap={2}>
                         <a href={item.url} target='_blank'>
@@ -36,7 +37,9 @@ const Projects = () => {
                     </Flex>
                     <Flex flexDirection={'column'}  w={['100%','50%']}>
                         <Heading color={'#3498db'} fontSize={['2rem', '2rem']}>{item.name}</Heading>
-                        <Text fontSize={['1.2rem', '2rem']}>{item.description}</Text>
+                        <Text fontSize={['1.2rem', '2rem']}
+                        overflowX={'auto'}
+                        >{item.description}</Text>
                         
                     </Flex>
                     </Suspense>

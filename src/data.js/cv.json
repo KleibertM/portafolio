@@ -441,16 +441,28 @@
       "github": "https://github.com/KleibertM/Munay"
     },
     {
-      "name": "Munay",
+      "name": "Munay (Ecommerce)",
       "image": "https://i.ibb.co/sbj5cr0/Captura-de-pantalla-2024-08-05-174703.png",
       "isActive": true,
-      "description": "Virtual store to sell ice cream, sales management.",
+      "description": "I developed an ecommerce where users can explore products, add them to the cart and place orders directly. The purchase is completed through WhatsApp, which facilitates direct communication with the customer. This approach allows you to handle orders in an initial testing phase, with the possibility of automating the payment and delivery process as demand grows.",
       "highlights": [
         "100k visitas al mes",
         "En desarrollo"
       ],
       "url": "https://munayapp-store.vercel.app/",
       "github": "https://github.com/KleibertM/Munay"
+    },
+    {
+      "name": "Tinder (Clone)",
+      "image": "https://i.ibb.co/TYZ0dnR/Tinder-Clone-1.jpg",
+      "isActive": true,
+      "description": "Implemented a structure of cards containing images, names, ages, and 'NOPE' and 'LIKE' options, using JavaScript to dynamically generate user data.",
+      "highlights": [
+        "100k visitas al mes",
+        "En desarrollo"
+      ],
+      "url": "https://tinder-app-one.vercel.app/",
+      "github": "https://github.com/KleibertM/TinderApp"
     },
     {
       "name": "VideoGames (gameHub)",
