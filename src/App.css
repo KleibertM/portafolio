@@ -1,6 +1,7 @@
 #root {
   background-color: #000000;
   color: white;
+  font-family: sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -16,4 +17,24 @@
 ::-webkit-scrollbar-track {
   background-color: #000;    /* Color de la pista de la barra de desplazamiento */
   border-radius: 1rem;       /* Radio del borde de la pista */
+}
+
+.cv {
+  background: #3498db;
+  padding: .5rem;
+  border-radius: 99999px;
+  -webkit-border-radius: 99999px;
+  -moz-border-radius: 99999px;
+  -ms-border-radius: 99999px;
+  -o-border-radius: 99999px;
+  outline: 1px solid white;
+  box-shadow: 0 0 10px whitesmoke;
+
+  font-weight: bold;
+  &:hover {
+    background: #2980b9;
+    cursor: pointer;
+    box-shadow: 0 0 15px whitesmoke;
+    transition: background 0.3s ease;
+  }
 }

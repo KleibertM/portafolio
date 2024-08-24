@@ -3,6 +3,7 @@ import { basics } from '../../data.js/cv.json'
 import ban from '../../assets/banner/per.jpg'
 import { BsGithub, BsEnvelopePlusFill, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import BtnLink from '../Btn/BtnLink';
+import Cv from '../utils/FullSta.pdf'
 
 const Hello = () => {
     return (
@@ -27,15 +28,21 @@ const Hello = () => {
                             {basics.summary}
                         </Highlight>
                     </Text>
-                    <Flex gap={4} paddingY={4} >
-                        <BtnLink link={`https://wa.me/${basics.phone}`} icon={<BsWhatsapp />} name={'WhatsApp'} color={'green'} />
+                    <Flex gap={2} justify={'center'} align={'center'} flexDirection={['column', 'row']} margin={'.5rem'}>
+                        <Flex className='cv'>
+                            <a download={'KleibertMedina-CV'} href={Cv}>Download CV</a>
+                        </Flex>
+                        <Flex gap={4} paddingY={4}>
+                            <BtnLink link={`https://wa.me/${basics.phone}`} icon={<BsWhatsapp />} name={'WhatsApp'} color={'green'} />
 
-                        <BtnLink link={`mailto:${basics.email}`} icon={<BsEnvelopePlusFill />} name='Email' color={'red'} />
+                            <BtnLink link={`mailto:${basics.email}`} icon={<BsEnvelopePlusFill />} name='Email' color={'#e74c3c'} />
 
 
-                        <BtnLink link={basics.url} icon={<BsGithub />} name={'GitHub'} color={'black'} />
+                            <BtnLink link={basics.url} icon={<BsGithub />} name={'GitHub'} color={'black'} />
 
-                        <BtnLink link={basics.linkdin} icon={<BsLinkedin />} name={'Linkdin'} color={'blue'} />
+                            <BtnLink link={basics.linkdin} icon={<BsLinkedin />} name={'Linkdin'} color={'rgb(10, 102, 194)'} />
+                        </Flex>
+
                     </Flex>
                 </Flex>
 
