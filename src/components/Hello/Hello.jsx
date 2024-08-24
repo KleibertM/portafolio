@@ -28,7 +28,7 @@ const Hello = () => {
                             {basics.summary}
                         </Highlight>
                     </Text>
-                    <Flex gap={2} justify={'center'} align={'center'} flexDirection={['column', 'row']} margin={'.5rem'}>
+                    <Flex gap={4} justify={'center'} align={'center'} flexDirection={['column', 'row']} margin={'.5rem'}>
                         <Flex className='cv'>
                             <a download={'KleibertMedina-CV'} href={Cv}>Download CV</a>
                         </Flex>
