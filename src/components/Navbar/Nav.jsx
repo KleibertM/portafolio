@@ -1,10 +1,12 @@
 import {Flex, Avatar, Heading , } from '@chakra-ui/react'
 import BtnLink from "../Btn/BtnLink";
-import { basics } from '../../data.js/cv.json'
 import { BsWhatsapp,} from "react-icons/bs";
 import icon from '../../assets/logo/icon.jpg'
 import { useEffect, useState } from 'react';
+import { useLeng } from '../../hook/leng';
 const Nav = () => {
+    const {dataGen} = useLeng()
+    const { basics } = dataGen
     const [isScrolled, setIsScrolled] = useState(false);
     useEffect(() => {
         const handleScroll = () => {

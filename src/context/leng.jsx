@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
-import dataEn from '../data.js/cv.json'
-import dataEs from '../data.js/cvEs.json'
+import dataEn from '../data/cv.json'
+import dataEs from '../data/cvEs.json'
 
 export const LengContext = createContext()
 

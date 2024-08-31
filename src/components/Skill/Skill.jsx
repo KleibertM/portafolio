@@ -5,7 +5,7 @@ import { useLeng } from '../../hook/leng'
 
 const Skill = () => {
   const {dataGen} = useLeng()
-    let skills = dataGen.skills
+    let {skills} = dataGen
   return (
     <>
       {Object.entries(skills).map(([category, skills], index) => (
