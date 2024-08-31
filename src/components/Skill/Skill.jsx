@@ -1,9 +1,11 @@
-import { skills } from '../../data.js/cv.json'
 import { Flex, Avatar, Heading, Text } from '@chakra-ui/react'
 import { Suspense } from 'react'
 import SkeletonCard from '../Skeletor'
+import { useLeng } from '../../hook/leng'
 
 const Skill = () => {
+  const {dataGen} = useLeng()
+    let skills = dataGen.skills
   return (
     <>
       {Object.entries(skills).map(([category, skills], index) => (

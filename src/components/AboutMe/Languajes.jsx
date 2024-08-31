@@ -1,7 +1,9 @@
-import { languages } from "../../data.js/cv.json";
 import { Flex, Badge } from '@chakra-ui/react'
+import { useLeng } from '../../hook/leng'
 
 const Languajes = () => {
+    const {dataGen} = useLeng()
+    let languages = dataGen.languages
     return (
         <>
          {languages.map((item, index) => (

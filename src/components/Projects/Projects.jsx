@@ -1,11 +1,13 @@
-import { projects } from '../../data.js/cv.json'
 import {Flex, Heading , Image,Text, Link as ChakraLink} from '@chakra-ui/react'
 import BtnLink from '../Btn/BtnLink'
 import { BsGithub,} from "react-icons/bs";
 import { TbWorldCheck } from "react-icons/tb";
 import { Suspense } from 'react';
 import SkeletonCard from '../Skeletor';
+import { useLeng } from '../../hook/leng';
 const Projects = () => {
+    const {dataGen} = useLeng()
+    let projects = dataGen.projects
     return (
         <>
             {projects.map((item,index) => (

@@ -1,8 +1,10 @@
 import { Card, Text, Badge, CardBody, Stack, Image, Heading } from '@chakra-ui/react'
-import {education} from '../../data.js/cv.json'
+import { useLeng } from '../../hook/leng'
 
 
 const Study = () => {
+    const {dataGen} = useLeng()
+    let education = dataGen.education
     return (
         <>
         {education.map((item, index) => (

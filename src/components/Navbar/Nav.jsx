@@ -2,7 +2,7 @@ import {Flex, Avatar, Heading , } from '@chakra-ui/react'
 import BtnLink from "../Btn/BtnLink";
 import { basics } from '../../data.js/cv.json'
 import { BsWhatsapp,} from "react-icons/bs";
-import icon from '../../assets/banner/logo/icon.jpg'
+import icon from '../../assets/logo/icon.jpg'
 import { useEffect, useState } from 'react';
 const Nav = () => {
     const [isScrolled, setIsScrolled] = useState(false);

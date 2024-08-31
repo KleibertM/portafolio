@@ -1,7 +1,8 @@
-import { interests } from '../../data.js/cv.json'
 import { Flex, Heading, Image, Text } from '@chakra-ui/react'
+import { useLeng } from '../../hook/leng'
 const Interests = () => {
-
+    const {dataGen} = useLeng()
+    let interests = dataGen.interests
     return (
         <>
             {interests.map((item, index) => (

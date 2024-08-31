@@ -1,11 +1,14 @@
 import './App.css'
+import { LengProvider } from './context/leng'
 import Home from './components/home/Home'
 
 function App() {
 
   return (
     <>
-    <Home />
+      <LengProvider>
+        <Home />
+      </LengProvider>
     </>
   )
 }

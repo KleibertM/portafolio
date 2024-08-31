@@ -185,6 +185,16 @@
           ],
           "image": "https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg"
         },
+          {
+            "name": "BootStrap",
+            "level": "Intermedio",
+            "keywords": [
+              "Desarrollo Web",
+              "Frontend",
+              "Diseño Responsive"
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+          },
         {
           "name": "Redux",
           "level": "Intermedio",
@@ -266,28 +276,6 @@
           "image": "https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png"
         },
         {
-          "name": "JavaScript",
-          "level": "Intermedio",
-          "keywords": [
-            "Desarrollo Web",
-            "Frontend",
-            "Backend",
-            "Fullstack"
-          ],
-          "image": "https://static-00.iconduck.com/assets.00/javascript-js-icon-2048x2048-nyxvtvk0.png"
-        },
-        {
-          "name": "TypeScript",
-          "level": "Básico",
-          "keywords": [
-            "Desarrollo Web",
-            "Frontend",
-            "Backend",
-            "JavaScript Superset"
-          ],
-          "image": "https://cdn-icons-png.flaticon.com/512/919/919832.png"
-        },
-        {
           "name": "Node",
           "level": "Intermedio",
           "keywords": [
@@ -355,6 +343,16 @@
             "Git"
           ],
           "image": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+        },
+        {
+          "name": "Scrum",
+          "level": "Intermedio",
+          "keywords": [
+            "Control de Versiones",
+            "Colaboración",
+            "Código Fuente"
+          ],
+          "image": "https://user-images.githubusercontent.com/68760595/164306020-120e8664-cb5b-459a-80a3-99e13b057b52.png"
         }
       ]
     }
